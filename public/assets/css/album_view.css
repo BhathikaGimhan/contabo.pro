@@ -1,0 +1,471 @@
+/* Gallery NEW CSS */
+
+h1, h2, h3, h4, h5, h6, p, a, figcaption {
+    font-family: GauthierNextFY, serif !important;
+}
+
+.image-view-background {
+    background-color: #112c3f !important;
+}
+
+.close-button {
+    border-radius: 50%;
+    padding: 0.5em;
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+    color: black;
+    position: relative;
+}
+
+.wide-modal {
+    min-width: 95%;
+}
+
+.close-button:hover {
+    border: 2px solid black;
+    background-color: grey;
+    color: #ffffff;
+}
+
+.icon-rtl {
+    padding-right: 25px;
+    padding-left: 25px;
+    background: url("https://cdn-icons-png.flaticon.com/512/1621/1621635.png") no-repeat right;
+    background-size: 20px;
+    width: 80%;
+    height: 2.5rem;
+    outline: none;
+    cursor: pointer;
+}
+
+.close-button::before {
+    content: " ";
+    position: absolute;
+    display: block;
+    background-color: black;
+    width: 2px;
+    left: 12px;
+    top: 5px;
+    bottom: 5px;
+    transform: rotate(45deg);
+}
+.close-button::after {
+    content: " ";
+    position: absolute;
+    display: block;
+    background-color: black;
+    height: 2px;
+    top:12px;
+    left: 5px;
+    right: 5px;
+    transform: rotate(45deg);
+}
+
+.modal-content {
+    background-color: #f2ece0;
+}
+
+.share-icon {
+    padding: 1rem;
+}
+
+.title-section .go-back {
+    color: black;
+}
+
+.title-section .go-back:hover {
+    text-decoration: underline !important;
+}
+
+.title-section .main-title {
+    text-transform: uppercase;
+    /* font-size: 3rem; */
+    color: #8d6d3f;
+}
+
+.title-section .icon {
+    color: black;
+}
+
+.blue-text {
+    color: #082a39;
+}
+
+.grid img {
+    max-width: 100%;
+    display: block;
+}
+
+.grid figure {
+    margin: 0;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    margin-bottom: 10px;
+    break-inside: avoid;
+}
+
+.grid figure>img {
+    grid-row: 1 / -1;
+    grid-column: 1;
+}
+
+.grid figure a {
+    color: black;
+    text-decoration: none;
+}
+
+.grid figcaption {
+    grid-row: 2;
+    grid-column: 1;
+    /*background-color:rgb(0 0 0 / 70%);*/
+    padding: .2em .5em;
+    justify-self: normal;
+    color: white;
+    display: none;
+    opacity: 10 !important;
+    height: 4em;
+    transition: 0.3s !important;
+    background: -webkit-linear-gradient(
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 1) 100%
+    );
+    background-image: -moz-linear-gradient(
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 1) 100%
+    );
+    background-image: -o-linear-gradient(
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 1) 100%
+    );
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 1) 100%
+    );
+    background-image: -ms-linear-gradient(
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 1) 100%
+    );
+}
+
+.grid .container {
+    column-count: 4;
+    column-gap: 10px;
+}
+
+.grid figure:hover figcaption{
+    display: block;
+}
+
+/* END GALLERY NEW CSS */
+
+
+.font-bold {
+    font-family: GauthierNextFY-Bold-Latin-trinity-college_kandy;
+    font-weight: 600;
+}
+
+p {
+    font-size: 25px !important;
+    font-family: GauthierNextFY-Regular-Latin-trinity-college_kandy;
+}
+
+.bgcolor-text-blocks {
+    background-color: rgb(199, 183, 111);
+}
+
+.a-link {
+    text-decoration: none !important;
+}
+
+h1 {
+    font-size: 41px;
+}
+
+h4 {
+    text-align: left;
+    font-family: GauthierNextFY-Bold-Latin-trinity-college_kandy;
+    font-size: 20px;
+}
+
+.mouse-over-the-box {
+    height: 300px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box !important;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 300PX;
+    height: 300PX;
+    object-fit: cover;
+
+}
+
+.swiper-button-next {
+    color: #000 !important;
+    top: auto !important;
+    margin-top: -105px !important;
+    right: 90px !important;
+}
+
+.swiper-button-prev {
+    color: #000 !important;
+    top: auto !important;
+    margin-top: -105px !important;
+    left: 90px !important;
+}
+
+.swiper-button-next-img {
+    margin-top: -175px !important;
+
+}
+
+.swiper-button-prev-img {
+    margin-top: -175px !important;
+}
+
+/* slider hover Principals’ Galery & staff */
+.slider-image {
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
+/* slider end */
+.search-bar-margin {
+    margin-top: 6px;
+    padding-left: 6px !important;
+    border: none;
+    box-shadow: none !important;
+    font-family: GauthierNextFY-Regular-Latin-trinity-college_kandy;
+
+}
+
+.btn {
+    border: none;
+    box-shadow: none !important;
+    font-family: GauthierNextFY-Regular-Latin-trinity-college_kandy;
+}
+
+@media screen and (min-width:900px) and (max-width:1920px) {
+    .nav-mobile {
+        display: none;
+    }
+
+    .swiper-button-next {
+        color: #000;
+        top: auto;
+        margin-top: -105px;
+        right: 35px;
+    }
+
+    .swiper-button-prev {
+        color: #000;
+        top: auto;
+        margin-top: -105px;
+        left: 35px;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:900px) {
+    .swiper-button-next {
+        color: #000;
+        top: auto;
+        margin-top: -105px;
+        right: 30px;
+    }
+
+    .swiper-button-prev {
+        color: #000;
+        top: auto;
+        margin-top: -105px;
+        left: 30px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 20px !important;
+    }
+
+    .btn {
+        font-size: 14px !important;
+    }
+
+    .nav-normal {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    .swiper-button-next {
+        color: #000;
+        top: auto;
+        margin-top: -105px;
+        right: 30px;
+    }
+
+    .swiper-button-prev {
+        color: #000;
+        top: auto;
+        margin-top: -105px;
+        left: 30px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 20px !important;
+    }
+
+    .btn {
+        font-size: 14px !important;
+    }
+
+    .nav-normal {
+        display: none;
+    }
+
+}
+
+
+
+@media screen and (min-width: 480px) and (max-width: 600px) {
+    p {
+        font-size: 18px !important;
+        font-family: GauthierNextFY-Regular-Latin-trinity-college_kandy;
+    }
+
+    h1 {
+        font-size: 43px;
+    }
+
+    .hr-short {
+        height: 6px !important;
+        background-color: #000 !important;
+        border: none !important;
+        width: 270px !important;
+        margin-left: 15%;
+    }
+
+    .swiper-button-next {
+        color: #000;
+        top: auto;
+        margin-top: -105px;
+        right: 75px;
+    }
+
+    .swiper-button-prev {
+        color: #000;
+        top: auto;
+        margin-top: -105px;
+        left: 75px;
+    }
+
+    .nav-normal {
+        display: none;
+    }
+
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    p {
+        font-size: 18px !important;
+        font-family: GauthierNextFY-Regular-Latin-trinity-college_kandy;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .hr-short {
+        height: 6px !important;
+        background-color: #000 !important;
+        border: none !important;
+        width: 270px !important;
+        margin-left: 15%;
+    }
+
+    .swiper-button-next {
+        color: #000;
+        top: auto;
+        margin-top: -105px;
+        right: 75px;
+    }
+
+    .swiper-button-prev {
+        color: #000;
+        top: auto;
+        margin-top: -105px;
+        left: 75px;
+    }
+
+    .nav-normal {
+        display: none;
+    }
+}
+
+.copy-input {
+    position: relative;
+}
+.custom-search-input {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px 40px 10px 20px;
+    line-height: 1;
+    box-sizing: border-box;
+    outline: none;
+}
+.custom-search-botton {
+    position: absolute;
+    right: 3px;
+    top: 28px;
+    bottom: 3px;
+    border: 0;
+    cursor: pointer;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.underline-text {
+    text-decoration: underline !important;
+}
+
+.gallery-buttons {
+    width: 50px;
+}

@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Gauthier Next FY';
+    src: url('GauthierNextFY-Regular.eot');
+    src: url('GauthierNextFY-Regular.eot?#iefix') format('embedded-opentype'),
+        url('GauthierNextFY-Regular.woff2') format('woff2'),
+        url('GauthierNextFY-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gauthier Next FY';
+    src: url('GauthierNextFY-Bold.eot');
+    src: url('GauthierNextFY-Bold.eot?#iefix') format('embedded-opentype'),
+        url('GauthierNextFY-Bold.woff2') format('woff2'),
+        url('GauthierNextFY-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,268 @@
+@font-face {
+	font-family: Unica77TrialTT-Regular;
+	src: url(../font/unica/Unica77TrialTT-Regular.ttf);
+}
+
+p {
+    margin: 0 !important;
+}
+
+#main_footer{
+	background-color: #112c3f;
+	padding: 60px 0px;
+}
+.inner-main-footer{
+	display: flex;
+	justify-content: space-between;
+}
+.footer_logo{
+	width: 380px;
+	height: 180px;
+	/* background-color: rgb(221, 221, 221); */
+}
+.footer_logo img{
+	width: 30%;
+	height: 100%;
+	object-fit: cover;
+	padding: 5px;
+	float: left;
+}
+.footer_logo p{
+	color: #fff;
+    font-family: 'CaslonBoldBT';
+    font-size: 45px;
+    position: initial;
+    padding: 15px 0 0 15px;
+    margin: 0;
+}
+
+.item_head{
+	font-size: 15px;
+	position: relative;
+	display: inline-block;
+	color: #fff;
+	font-family: 'Unica77TrialTT-Regular';
+}
+.item_head::after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 1px;
+	background-color: #fff;
+	bottom: -4px;
+	left: 0;
+}
+.contact-us p{
+	color: #fff;
+	font-family: 'Unica77TrialTT-Regular';
+	font-size: 14px;
+}
+.more a, .main a, .history a{
+	color: #fff;
+	text-decoration: none;
+	margin-bottom: 5px;
+	font-size: 14px;
+	font-family: 'Unica77TrialTT-Regular';
+}
+.follow-us{
+	color: #fff;
+	display: flex;
+	align-items: center;
+	font-family: 'Unica77TrialTT-Regular';
+}
+.lower_part{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	justify-content: space-around;
+}
+.follow-us h6{
+	margin-right: 30px;
+	font-size: 14px;
+	font-family: 'Unica77TrialTT-Regular';
+}
+.follow-us-pix{
+	background-color: rgb(241, 239, 239);
+	width: 40px;
+	height: 40px;
+	object-fit: cover;
+	margin-right: 10px;
+}
+.copy-right p{
+	font-size: 14px;
+		font-family: 'Unica77TrialTT-Regular';
+		margin-bottom: 0px;
+}
+.d-flex i{
+	font-size: 20px;
+	padding: 8px;
+}
+@media screen and (max-width: 991px) {
+	.inner-main-footer{
+		flex-wrap: wrap;
+	}
+	.footer_logo{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.lower_part{
+		flex-direction: column;
+	}
+	.follow-us {
+		width: 100%;
+		align-items: center;
+		justify-content: center;
+	}
+	.copy-right{
+		margin-top: 30px;
+	}
+	#main_footer {
+		padding: 20px 0px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+
+    .footer-col {
+        margin: auto;
+        text-align: center !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .title-section {
+        align-self: center;
+    }
+
+    .col-contact {
+        padding-top: 30px;
+    }
+
+    .footer-header {
+        font-size: 3rem !important;
+    }
+
+    .footer-col a.footer-link, .footer-col p.footer-link {
+        font-size: 13px !important;
+    }
+
+}
+
+
+
+
+
+/* @media screen and (max-width: 500px) {
+	.contact-us, .more, .main, .history{
+		width: 40%;
+	}
+	.inner-main-footer{
+		justify-content: space-around;
+	}
+	.follow-us h6{
+		width: 100%;
+		text-align: center;
+		margin-bottom: 30px;
+		font-family: 'Unica77TrialTT-Regular';
+	}
+	.follow-us{
+		flex-direction: column;
+	}
+	.copy-right p{
+		width: 100%;
+		text-align: center;
+	}
+	.footer_logo p{
+		font-size: 35px;
+	}
+}
+@media screen and (max-width: 400px) {
+	.footer_logo p{
+		font-size: 25px;
+	}
+} */
+
+
+/*NEW CSS STYLES*/
+.footer-header {
+    color: #f2ece0;
+    font-family: 'CaslonBoldBT';
+    font-size: 4em;
+
+}
+
+.footer-link {
+    font-weight: 500;
+    color: #f2ece0;
+    font-family: 'CaslonBoldBT';
+    text-transform: uppercase;
+    font-size: 16px !important;
+}
+
+.footer-link-hove:hover {
+    color: #dac79d;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.footer-sub-title {
+    color: #f2ece0;
+    font-family: 'CaslonBoldBT';
+    text-transform: uppercase;
+    padding-top: 10px !important;
+}
+
+.contact-text {
+    font-size: 0.8em;
+    color: #f2ece0;
+    font-family: 'CaslonBoldBT';
+    /*text-transform: uppercase;*/
+    cursor: pointer;
+}
+
+.contact-text:hover {
+    color: #8c7237;
+}
+
+.footer-col {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.copyright-text {
+    font-size: 13px !important;
+}
+
+.footer-header {
+    color: #f2ece0;
+    font-family: 'CaslonBoldBT';
+    font-size: 3.5em;
+}
+
+.title-section {
+    border-bottom: #f2ece0 solid thick;
+    width: 65%;
+    padding: 0.2em 0 !important;
+    margin: 1em 0 !important;
+}
+
+.contact-text {
+    font-size: 1rem !important;
+    color: #f2ece0;
+    font-family: GauthierNextFY, serif !important;
+    /* text-transform: uppercase; */
+    cursor: pointer;
+}
+
+.nav-area {
+    padding-top: 1.8em !important;
+}
+
+.inner-footer {
+    border-bottom: #dac79d solid thick;
+    padding: 0 12px !important;
+}
+

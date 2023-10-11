@@ -1,0 +1,137 @@
+:root {
+    --blue: #112c3f;
+    --cream: #f2ece0;
+}
+
+body {
+    font-family: GauthierNextFY, serif !important;
+    color: var(--blue);
+    overflow: auto;
+}
+
+.cream-bg {
+    background-color: var(--cream);
+}
+
+.input-item .item-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-item label {
+    font-family: GauthierNextFY-regular;
+    font-size: 19px;
+    color: #112c3f;
+}
+
+.input-item a {
+    font-family: GauthierNextFY-regular;
+    font-size: 17px;
+    color: #112c3f;
+    align-self: center;
+    border-bottom: 1px solid #112c3f;
+}
+
+.input-item input[type="text"],
+.input-item input[type="email"],
+.input-item input[type="password"],
+select {
+    font-family: GauthierNextFY-bold;
+    font-size: 16px;
+    padding-inline: 15px;
+    border: none;
+    outline: none;
+    height: 38px;
+    background-color: #949494;
+    color: #782c2c;
+}
+
+.col-header {
+    font-family: GauthierNextFY-bold;
+    font-size: 22px;
+    color: #112c3f;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+    margin: 0;
+}
+
+.form-select {
+    border: none;
+    border-radius: 0;
+    outline: none;
+}
+
+.forms .input-item input[type="text"],
+.forms .input-item input[type="password"],
+.forms .input-item input[type="email"],
+.forms select {
+    background-color: #ffffff;
+    color: #782c2c;
+}
+
+.forms .input-item {
+    padding-bottom: 20px;
+}
+
+.item-left {
+    max-width: 440px;
+}
+
+.require {
+    font-family: GauthierNextFY-regular;
+    font-size: 17px;
+    color: #d72729;
+    align-self: center;
+}
+
+.form-check-input[type="radio"] {
+    border-radius: 0;
+    height: 17px;
+    width: 17px;
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+}
+
+.form-check-input[type="radio"]:active,
+.form-check-input[type="radio"]:checked {
+    background-color: #782c2c;
+    background-image: none;
+}
+
+.input-item.text,
+form-check-label {
+    font-family: GauthierNextFY-regular;
+    font-size: 19px;
+}
+
+.completeButton {
+    margin-top: 30px;
+    font-family: GauthierNextFY-bold;
+    color: #dac79d;
+    background-color: #112c3f;
+    padding: 5px 0 5px 0;
+    font-size: 20px;
+    border: none;
+    width: 220px;
+    border-radius: 0;
+}
+
+.completeButton:hover {
+    background-color: #d72729;
+    color: #dac79d;
+}
+
+.terms-link {
+    font-family: GauthierNextFY-regular;
+    color: #112c3f;
+    padding-top: 20px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.terms-link a {
+    border-bottom: 1px solid #112c3f;
+    text-decoration: none;
+    color: #112c3f;
+}

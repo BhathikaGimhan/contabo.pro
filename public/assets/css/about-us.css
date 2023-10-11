@@ -1,0 +1,187 @@
+/* common css start */
+@font-face {
+    font-family: GauthierNextFY;
+    src: url(../font/GauthierNextFY-Bold-Latin-trinity-college_kandy.ttf);
+}
+
+@font-face {
+    font-family: GauthierNextFY-Regular;
+    src: url(../font/TRY_GauthierNextFY-Regular.ttf);
+}
+
+* {
+    list-style: none !important;
+    text-decoration: none !important;
+    box-sizing: border-box !important;
+    margin: 0;
+    padding: 0;
+}
+
+
+.timeless {
+    min-height: 538px;
+    background: url("../images/homepage-sections/background/Section_Background\ 02-min.png");
+}
+
+.sec3 {
+    min-height: 386px;
+    background: url("../images/homepage-sections/background/Section_Background\ 01-min.png");
+}
+
+.story {
+    background: url("../images/homepage-sections/background/Section_Background\ 01-min.png");
+}
+
+.research-team {
+    background: url("../images/homepage-sections/background/Section_Background\ 02-min.png");
+}
+
+.steering-team {
+    background: url("../images/homepage-sections/background/Section_Background\ 01-min.png");
+}
+
+.sec-content-header {
+    font-family: GauthierNextFY !important;
+    color: #8c7237;
+    font-size: 56px;
+}
+
+.sec-content-text {
+    font-family: GauthierNextFY-Regular;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.story-content-text {
+    font-family: GauthierNextFY-Regular;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.full-story {
+    font-family: GauthierNextFY !important;
+    color: #112c3f;
+    font-size: 40px;
+}
+
+.team-header {
+    font-family: GauthierNextFY !important;
+    color: #112c3f;
+    font-size: 56px;
+}
+
+.read-more button {
+    font-family: GauthierNextFY !important;
+    color: #dac79d;
+    background-color: #112c3f;
+    padding: 4px 36px;
+    font-size: 27px;
+}
+
+.read-more-btn:hover {
+    background-color: #d72729;
+    color: #dac79d;
+}
+
+.header-line {
+    height: 1px;
+    background: black;
+}
+
+.research-team .team-item .content {
+    padding: 18px;
+    border: solid 3px #8c7237;
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+}
+
+.research-team .team-item .team-name {
+    font-family: GauthierNextFY !important;
+    color: #112c3f;
+    font-size: 20px;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.research-team .team-item .team-role {
+    font-family: GauthierNextFY !important;
+    color: #8c7237;
+    font-size: 14px;
+    margin: 0;
+}
+
+.team-item .content img {
+    margin: auto;
+    padding: auto;
+}
+
+.justify-text {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.steering-team-body .row .team-item .content {
+    display: flex;
+    max-width: 370px;
+    min-height: 140px;
+    padding: 18px;
+    border: solid 3px #8c7237;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.steering-team-body .row .team-item {
+    padding-bottom: 40px;
+}
+
+.steering-team-body .team-name {
+    font-family: GauthierNextFY !important;
+    color: #112c3f;
+    font-size: 21px;
+    margin: 0;
+}
+
+.steering-team-body .team-role {
+    font-family: GauthierNextFY !important;
+    color: #8c7237;
+    font-size: 22px;
+    padding-top: 5px;
+    margin: 0;
+}
+
+.empty-img {
+    background-color: #001045;
+}
+
+@media screen and (min-width: 1500px) {
+    .sec3-images {
+        justify-content: space-between;
+    }
+
+    .sec3-images img {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .sec3-images {
+        justify-content: center;
+    }
+
+    .sec3-images img {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 1401px) and (min-width: 990px) {
+    .team-item {
+        width: 100%;
+    }
+}
+

@@ -1,0 +1,80 @@
+@font-face {
+    font-family: GauthierNextFY-bold;
+    src: url(../font/GauthierNextFY-Bold-Latin-trinity-college_kandy.ttf);
+}
+
+@font-face {
+    font-family: GauthierNextFY-regular;
+    src: url(../font/TRY_GauthierNextFY-Regular.ttf);
+}
+
+#informationModal .modal-content {
+    border-radius: 0;
+    background-color: #f4f2e3;
+}
+
+#informationModal h5 {
+    font-family: GauthierNextFY-bold;
+    color: black;
+}
+
+#informationModal h3 {
+    font-family: GauthierNextFY-bold;
+    color: black;
+}
+
+#informationModal p {
+    font-family: GauthierNextFY-bold;
+    color: black;
+    padding-top: 5px;
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+#informationModal .underline-text h6 {
+    border-bottom: solid black;
+    width: fit-content;
+}
+
+#informationModal table tr td {
+    padding-bottom: 10px;
+}
+
+#informationModal td input, #informationModal textarea {
+    width: 100%;
+    border: 0;
+    border-radius: 0;
+    outline: 0;
+    padding-inline: 10px;
+}
+
+.input-label {
+    font-family: GauthierNextFY-bold;
+    color: #112c3f;
+    font-size: 15px;
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    transition: all 0.5s ease-in-out;
+}
+
+.close .fa-circle {
+    font-size: 22px;
+}
+
+.close .fa-close {
+    font-size: 16px;
+}
+
+.close .fa-stack:hover,
+.close .fa-stack:focus {
+    color: #d72729;
+    text-decoration: none;
+    cursor: pointer;
+}
+

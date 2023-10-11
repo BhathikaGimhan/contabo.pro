@@ -1,0 +1,503 @@
+@font-face {
+    font-family: GauthierNextFY-bold;
+    src: url(../font/GauthierNextFY-Bold-Latin-trinity-college_kandy.ttf);
+}
+
+@font-face {
+    font-family: GauthierNextFY-regular;
+    src: url(../font/TRY_GauthierNextFY-Regular.ttf);
+}
+
+.btn {
+    font-family: GauthierNextFY-bold;
+}
+
+p {
+    font-size: 21px;
+    font-family:  GauthierNextFY-regular;
+}
+.bgcolor-text-blocks {
+    background-color: rgb(199, 183, 111);
+}
+
+h1 {
+    font-size: 40px;
+    font-family:  GauthierNextFY-bold;
+}
+h2 {
+    text-align: left;
+    font-family:  GauthierNextFY-bold;
+    font-size: 21px;
+}
+.h5 {
+    font-size: 18px;
+}
+h6 {
+    font-family:  GauthierNextFY-bold;
+    font-size: 18px;
+}
+.name {
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.p-font-size {
+    font-size: 13px;
+}
+.search-bar-margin {
+    margin-top: 6px;
+    padding-left: 6px;
+    font-family:  GauthierNextFY-bold;
+    box-shadow: none;
+    border: none;
+}
+.padding-t {
+    margin: 0px;
+    padding-top: 5px;
+}
+.heder-shadow {
+    text-shadow: 2px 2px 2px #615f5f;
+}
+.btn {
+    border: none;
+    box-shadow: none;
+    font-family:  GauthierNextFY-bold;
+}
+@media screen and (min-width: 900px) and (max-width: 1920px) {
+    .nav-nomal {
+        display: none;
+    }
+    .footer-btn-mobile {
+        display: none;
+    }
+    .imgsize {
+        width: 499px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 900px) {
+
+    .imgsize {
+        width: 499px;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    .footer-btn-mobile {
+        display: none;
+    }
+    .imgsize {
+        width: 399px;
+    }
+    .nav-nomal {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 600px) {
+    p {
+        font-size: 18px;
+        font-family:  GauthierNextFY-regular;
+    }
+    h1 {
+        font-size: 43px;
+    }
+    .hr-short {
+        height: 6px;
+        background-color: #000;
+        border: none;
+        width: 270px;
+        margin-left: 15%;
+    }
+    .swiper-button-next {
+        color: #000;
+        top: auto;
+        margin-top: -105px;
+        right: 75px;
+    }
+
+    .swiper-button-prev {
+        color: #000;
+        top: auto;
+        margin-top: -105px;
+        left: 75px;
+    }
+    .imgsize {
+        width: 399px;
+    }
+    .nav-nomal {
+        display: none;
+    }
+    .footer-btn-nomal {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    p {
+        font-size: 18px;
+        font-family:  GauthierNextFY-regular;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    .hr-short {
+        height: 6px;
+        background-color: #000;
+        border: none;
+        width: 270px;
+        margin-left: 15%;
+    }
+    .swiper-button-next {
+        color: #000;
+        top: auto;
+        margin-top: -105px;
+        right: 75px;
+    }
+
+    .swiper-button-prev {
+        color: #000;
+        top: auto;
+        margin-top: -105px;
+        left: 75px;
+    }
+    .nav-nomal {
+        display: none;
+    }
+    .footer-btn-nomal {
+        display: none;
+    }
+
+    .fontsize12 {
+        font-size: 12px;
+    }
+    .imgsize {
+        width: 399px;
+    }
+}
+
+.dark {
+    background-color: #112c3f;
+    color: #ffecb3;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.bottom {
+    background-color: #782c2c;
+    color: #ffecb3;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    font-size: 21px;
+}
+
+.darkheading {
+    font-size: 45px;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+.darkdescription {
+    font-size: 30px;
+    padding-top: 0%;
+    margin-top: 0%;
+    position: relative;
+    top: -15%;
+}
+
+.darkright {
+    padding-top: 2%;
+    font-size: 21px;
+}
+
+.darklight1 {
+    font-size: 15px;
+}
+
+.darklight1:hover {
+    color: #ffecb3;
+    text-decoration: underline;
+}
+
+.darklight3 {
+    font-size: 15px;
+}
+
+.darklight2 {
+    font-size: 21px;
+}
+
+.story {
+    background-image: url("/assets/images/homepage-sections/background/Section_Background 01-min.png");
+    background-size: cover;
+    font-weight: bold;
+    padding-bottom: 2%;
+}
+
+.headinglanding {
+    padding-top: 2%;
+    font-size: 65px;
+    color: #762829;
+    padding-left: 8%;
+    line-height: 60px;
+}
+
+.heading {
+    padding-top: 2%;
+    font-size: 100px;
+    color: #762829;
+    padding-left: 8%;
+    line-height: 70px;
+}
+
+.headingid {
+    font-size: 40px;
+}
+
+.subheadingland {
+    padding-left: 6%;
+    padding-top: 2%;
+    color: #816525;
+    font-size: 50px;
+}
+
+.subheading {
+    padding-left: 0%;
+    padding-top: 2%;
+    color: #816525;
+    font-size: 55px;
+}
+
+.subheading.pillars {
+    padding-right: 40%;
+}
+
+.subheadingland:hover {
+    color: #112c3f;
+}
+
+.subheadingid {
+    font-size: 30px;
+}
+
+.contant {
+    padding-left: 4%;
+    padding-right: 4%;
+    font-weight: normal;
+}
+
+.sub2 {
+    color: #000;
+    font-size: 18px;
+}
+
+.sub2:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.building_sub2 {
+    padding-left: 10%;
+}
+
+.figure1 {
+    float: left;
+    margin: 15px 50px 0px 0px;
+    width: 30%;
+    border-bottom: #9e6864 solid 1px;
+}
+
+.figure2 {
+    border-bottom: #9e6864 solid 1px;
+}
+
+.figureChap2 {
+    float: left;
+    margin: 10px 30px 0px 0px;
+    width: 27%;
+}
+
+.figurechap3 {
+    float: left;
+    margin: 10px 30px 0px 0px;
+    width: 60%;
+    border-bottom: #9e6864 solid 1px;
+}
+
+img {
+    width: 100%;
+}
+
+figcaption {
+    color: #9e6864;
+    text-align: left;
+}
+
+.next {
+    margin-left: 11%;
+    margin-right: 11%;
+    color: #816525;
+}
+
+.next1 {
+    font-size: 18px;
+}
+
+.next2 {
+    font-size: 30px;
+}
+
+.next3 {
+    font-size: 40px;
+}
+
+.page {
+    width: 40px;
+    height: 30px;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+}
+
+.underline:hover {
+    text-decoration: underline;
+}
+
+.popunder {
+    text-decoration: underline;
+}
+
+hr {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 5%;
+    border: #000 1px solid;
+}
+
+.hrdev {
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 5%;
+}
+
+.gototop {
+    font-size: 18px;
+    padding-top: 2%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.gototop:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+#frombeginning:hover {
+    text-decoration: underline;
+    color: #ffecb3;
+}
+
+.tored:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.subcontant {
+    border: #762829 solid;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 50px;
+    padding-bottom: 50px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #dac79d;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #888;
+    width: 50%;
+}
+
+.content-div {
+    align-items: center;
+    padding-top: 80px;
+}
+
+.content-div2 {
+    align-items: center;
+    padding-top: 20px;
+}
+
+.con-div {
+    padding-left: 30%;
+}
+
+.con-div2 {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 15%;
+}
+
+.close:hover,
+.close:focus,
+.close1:hover,
+.close1:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.popupimg {
+    width: 250px;
+}
+
+.popupimg2 {
+    width: 450px;
+}
+
+
+@media (max-width: 1000px) {
+
+    .darkheading {
+        font-size: 40px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .darkdescription {
+        font-size: 25px !important;
+        margin-top: 10% !important;
+    }
+
+    .headinglanding {
+        font-size: 45px !important;
+    }
+
+    .subheadingland {
+        font-size: 40px !important;
+    }
+
+    .headinglanding {
+        padding-left: 0 !important;
+    }
+}

@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>&lt;model-viewer&gt; template</title>
+    <meta charset="utf-8">
+    <meta name="description" content="&lt;model-viewer&gt; template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" href="./styles.css" rel="stylesheet"/>
+    <!-- OPTIONAL: The :focus-visible polyfill removes the focus ring for some input types -->
+    <script src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
+  </head>
+  <body>
+    <!-- <model-viewer> HTML element -->
+    <model-viewer bounds="tight" enable-pan src="3Ddata.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls environment-image="neutral" poster="poster.webp" shadow-intensity="1.57" exposure="1" camera-orbit="506deg 76.54deg auto" auto-rotate>
+      <button class="Hotspot" slot="hotspot-1" data-position="-0.13228660087899857m 0.48295397459988465m -0.17163932461341647m" data-normal="0.13928417138157084m 0.07372062863258111m -0.9875045258208016m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">GRAMPIAN HANWORTH MIDDX MICROPHONE</div>
+      </button><button class="Hotspot" slot="hotspot-4" data-position="0.03944196223982899m 0.14846865439257617m -0.265394624705392m" data-normal="-0.23543835585453524m -0.4589307417979579m -0.8567096093924063m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Presumably used in the College Chapel for Chapel Services in the early 60s, 70s</div>
+      </button>
+      <div class="progress-bar hide" slot="progress-bar">
+          <div class="update-bar"></div>
+      </div>
+      <button slot="ar-button" id="ar-button">
+          View in your space
+      </button>
+      <div id="ar-prompt">
+          <img src="ar_hand_prompt.png">
+      </div>
+    </model-viewer>  
+    <script src="script.js"></script>
+    <!-- Loads <model-viewer> for browsers: -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  </body>
+</html>

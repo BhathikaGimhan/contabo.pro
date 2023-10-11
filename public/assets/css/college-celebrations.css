@@ -1,0 +1,212 @@
+@font-face {
+    font-family: GauthierNextFY-bold;
+    src: url(../font/GauthierNextFY-Bold-Latin-trinity-college_kandy.ttf);
+}
+
+@font-face {
+    font-family: GauthierNextFY-regular;
+    src: url(../font/TRY_GauthierNextFY-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.back-1 {
+    background: url("../images/homepage-sections/background/Section_Background\ 01-min.png");
+}
+
+.back-2 {
+    background: url("../images/homepage-sections/background/Section_Background\ 02-min.png");
+}
+
+h1 {
+    font-family: GauthierNextFY-bold;
+    font-size: 65px;
+    color: #112c3f;
+    margin: 0;
+}
+
+h2 {
+    font-family: GauthierNextFY-bold;
+    font-size: 42px;
+    margin: 0;
+}
+
+.justify-text {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* section 1 */
+.sec-1 {
+    min-height: 800px;
+}
+
+.sec-1-content {
+    padding-top: 70px;
+}
+
+.sec-1-content img {
+    width: 920px;
+}
+
+.sec-1-header {
+    padding-top: 105px;
+}
+
+.sec-1-subheader {
+    color: #8c7237;
+}
+
+/* section 2 */
+.sec-2-content {
+    padding-top: 88px;
+    padding-bottom: 115px;
+}
+
+.sec-2-header {
+    color: #782c2c;
+}
+
+.sec-2-subheader {
+    font-family: GauthierNextFY-bold;
+    font-size: 32px;
+    color: #112c3f;
+    margin: 0;
+    padding-top: 118px;
+}
+
+.pillars {
+    padding-top: 35px;
+    padding-inline: 195px;
+}
+
+.pillars .row .col {
+    margin-bottom: 55px;
+}
+
+.pillar-content {
+    border: solid 3px #782c2c;
+    padding: 25px 45px;
+    height: 100%;
+}
+
+.pillar-content h4 {
+    font-family: GauthierNextFY-bold;
+    font-size: 26px;
+    color: #d82629;
+    padding-bottom: 25px;
+    margin: 0;
+}
+
+.pillar-content p {
+    font-family: GauthierNextFY-regular;
+    font-size: 26px;
+    color: #d82629;
+    margin: 0;
+}
+
+.text {
+    font-family: GauthierNextFY-regular;
+    font-size: 26px;
+    padding-top: 65px;
+    margin: 0;
+}
+
+/* section 3 */
+.sec-3-content {
+    padding-top: 48px;
+    padding-bottom: 115px;
+}
+
+.sec-3-header {
+    line-height: 60px;
+}
+
+.sec-3-content .row {
+    padding-inline: 185px;
+}
+
+.sec-3-content .row .col {
+    padding-top: 90px;
+}
+
+.sec-3-content .row img {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.event-head {
+    font-family: GauthierNextFY-bold;
+    font-size: 24px;
+    color: #112c3f;
+    padding-top: 20px;
+}
+
+.sec-3 .button a {
+    font-family: GauthierNextFY !important;
+    color: #f2ece0;
+    background-color: #112c3f;
+    padding: 4px 8px;
+    font-size: 22px;
+}
+
+.sec-3 .button a:hover {
+    background-color: #D72729;
+}
+
+.btn-1 {
+    margin-top: 15px;
+}
+
+.btn-2 {
+    margin-top: 45px;
+}
+
+@media screen and (min-width: 1400px) {
+    .pillar-content {
+        height: 230px;
+    }
+
+    .event {
+        text-align: start;
+        padding-left: 25px;
+    }
+}
+
+@media screen and (max-width: 1401px) {
+    .event {
+        text-align: center;
+
+    }
+
+    .sec-3-content .row .col {
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    .right-padding {
+        padding-right: 30px;
+    }
+
+    .left-padding {
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .pillars {
+        padding-top: 35px;
+        padding-inline: 50px;
+    }
+}

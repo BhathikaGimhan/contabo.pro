@@ -1,0 +1,606 @@
+.font-bold{
+    font-family:GauthierNextFY-Bold-Latin-trinity-college_kandy;
+    font-weight: 600;
+}
+p{
+    font-size: 25px !important;
+    font-family:GauthierNextFY-Regular-Latin-trinity-college_kandy;
+}
+.bgcolor-text-blocks{
+    background-color: rgb(199, 183, 111);
+}
+.a-link{
+    text-decoration: none !important;
+}
+h1{
+    font-size: 45px;
+}
+h4{
+  text-align: left;
+  font-family:GauthierNextFY-Bold-Latin-trinity-college_kandy;
+font-size: 20px;
+}
+.mouse-over-the-box{
+    height: 300px;
+}
+
+.section {
+  max-height: 525px;
+  padding: 1rem;
+  overflow-y: auto;
+  direction: ltr;
+  scrollbar-color: #d4aa70 #e4e4e4;
+  scrollbar-width: thin;
+
+
+}
+
+.section::-webkit-scrollbar {
+  width: 20px;
+}
+
+.section::-webkit-scrollbar-track {
+  background-color: #e4e4e4;
+  border-radius: 100px;
+}
+
+.section::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  background-image: linear-gradient(180deg, #494648 0%, #494648 99%);
+  box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+}
+
+body {
+  font-family: "system-ui";
+  line-height: 1.4;
+  padding: 1rem;
+  background-color: #f7f7f7;
+  min-height: px;
+}
+
+* {
+  box-sizing: border-box;
+}
+.section-image{
+  margin-left: 25px;
+}
+.search-bar-margin{
+  margin-top: 6px;
+  padding-left: 6px!important;
+  border: none;
+  box-shadow:none !important;
+  font-family:GauthierNextFY-Regular-Latin-trinity-college_kandy;
+
+}
+.btn{
+  border: none;
+  box-shadow:none !important;
+  font-family:GauthierNextFY-Regular-Latin-trinity-college_kandy;
+}
+/* imag 1 */
+.imagediv{
+  margin-top: 10px;
+  height: 322px !important;
+}
+.img1{
+  width:250px;
+  height:300px;
+  position:relative;
+  top:0px;
+  left:0px;
+  z-index:4;
+}
+.imag1-1layer{
+  background-color:rgb(153, 152, 152);
+  border:1px;
+border-color:rgb(10, 10, 10) ;
+    width:250px;
+    height:300px;
+    position:relative;
+    top: -303px;
+    left: 4px;
+    z-index:3;
+}
+.imag1-2layer{
+  background-color:rgb(190, 188, 188);
+  border:0.1;
+  border-color:rgb(39, 38, 38);
+     width:250px;
+     height:300px;
+     position:relative;
+     top: -607px;
+     left: 7px;
+     z-index:2;
+}
+.imag1-3layer{
+  background-color:rgb(224, 222, 222);
+  border:0.1;
+  border-color:rgb(39, 38, 38);
+     width:250px;
+     height:300px;
+     position:relative;
+     top: -910px;
+     left: 11px;
+     z-index:1;
+}
+/* imag 2 */
+.imagediv2{
+  margin-top: 10px;
+  /* height: 236px !important; */
+}
+.img2{
+  width:250px;
+  height:225px;
+  position:relative;
+  top:0px;
+  left:0px;
+  z-index:4;
+}
+.imag2-1layer{
+  background-color:rgb(153, 152, 152);
+  border:1px;
+border-color:rgb(10, 10, 10) ;
+    width:250px;
+    height:225px;
+    position:relative;
+    top: -229px;
+    left: 4px;   z-index:3;
+}
+.imag2-2layer{
+  background-color:rgb(190, 188, 188);
+  border:0.1;
+  border-color:rgb(39, 38, 38);
+     width:250px;
+     height:225px;
+     position:relative;
+     top: -458px;
+     left: 7px;
+     z-index:2;
+}
+.imag2-3layer{
+  background-color:rgb(224, 222, 222);
+  border:0.1;
+  border-color:rgb(39, 38, 38);
+     width:250px;
+     height:225px;
+     position:relative;
+     top: -688px;
+     left: 10px;     z-index:1;
+}
+/* imag 3 */
+.imagediv3{
+  margin-top: 10px;
+  height: 140px !important;
+}
+
+.img3{
+  width:250px;
+  height:125px;
+  position:relative;
+  top:0px;
+  left:0px;
+  z-index:4;
+}
+.imag3-1layer{
+  background-color:rgb(153, 152, 152);
+  border:1px;
+border-color:rgb(10, 10, 10) ;
+    width:250px;
+    height:125px;
+    position:relative;
+    top: -129px;
+    left: 3px;
+    z-index:3;
+}
+.imag3-2layer{
+  background-color:rgb(190, 188, 188);
+  border:0.1;
+  border-color:rgb(39, 38, 38);
+     width:250px;
+     height:125px;
+     position:relative;
+     top: -258px;
+    left: 7px;
+     z-index:2;
+}
+.imag3-3layer{
+  background-color:rgb(224, 222, 222);
+  border:0.1;
+  border-color:rgb(39, 38, 38);
+     width:250px;
+     height:125px;
+     position:relative;
+     top: -387px;
+    left: 11px;
+     z-index:1;
+}
+@media screen and (min-width:900px) and (max-width:1920px){
+  .nav-mobile{
+    display: none;
+  }
+
+}
+@media screen and (min-width:768px) and (max-width:900px){
+  .nav-mobile{
+    display: none;
+  }
+/* imag 1 */
+.imagediv{
+  margin-top: 0px;
+  height: 373px !important;
+  margin-left: 10px;
+
+}
+.img1{
+  width:250px;
+  height:300px;
+  position:relative;
+  top:0px;
+  left:-25px;
+  z-index:4;
+}
+.imag1-1layer{
+    width:250px;
+    height:300px;
+    top: -303px;
+    left: 4px;
+}
+.imag1-2layer{
+     width:250px;
+     height:300px;
+     top: -607px;
+     left: 7px;
+}
+.imag1-3layer{
+     width:250px;
+     height:300px;
+     top: -910px;
+     left: 11px;
+}
+
+/* imag 2 */
+.imagediv2{
+  margin-top: 0px;
+  height: 256px !important;
+  margin-left: 10px;
+}
+.img2{
+  width:250px;
+  height:225px;
+  position:relative;
+  top:0px;
+  left:-25px;
+  z-index:4;
+}
+.imag2-1layer{
+    width:250px;
+    height:225px;
+    top: -229px;
+    left: 4px;
+}
+.imag2-2layer{
+     width:250px;
+     height:225px;
+     top: -458px;
+     left: 7px;
+}
+.imag2-3layer{
+     width:250px;
+     height:225px;
+     top: -688px;
+     left: 10px;
+}
+
+/* imag 3 */
+.imagediv3{
+  margin-top: 0px;
+  height: 150px !important;
+  margin-left: 10px;
+}
+
+.img3{
+  width:250px;
+  height:125px;
+  position:relative;
+  top:0px;
+  left:-25px;
+  z-index:4;
+}
+.imag3-1layer{
+    width:250px;
+    height:125px;
+    top: -129px;
+    left: 3px;
+}
+.imag3-2layer{
+     width:250px;
+     height:125px;
+     top: -258px;
+    left: 7px;
+}
+.imag3-3layer{
+     width:250px;
+     height:125px;
+     top: -387px;
+    left: 11px;
+}
+
+}
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  .nav-normal{
+    display: none;
+  }
+/* imag 1 */
+.imagediv{
+  margin-top: 0px;
+  height: 373px !important;
+  margin-left: 0px;
+
+}
+.img1{
+  width:215px;
+  height:300px;
+  position:relative;
+  top:0px;
+  left:0px;
+  z-index:4;
+}
+.imag1-1layer{
+    width:215px;
+    height:300px;
+    top: -303px;
+    left: 4px;
+}
+.imag1-2layer{
+     width:215px;
+     height:300px;
+     top: -607px;
+     left: 7px;
+}
+.imag1-3layer{
+     width:215px;
+     height:300px;
+     top: -910px;
+     left: 11px;
+}
+
+/* imag 2 */
+.imagediv2{
+  margin-top: 0px;
+  height: 256px !important;
+  margin-left: 0px;
+}
+.img2{
+  width:215px;
+  height:225px;
+  position:relative;
+  top:0px;
+  left:0px;
+  z-index:4;
+}
+.imag2-1layer{
+    width:215px;
+    height:225px;
+    top: -229px;
+    left: 4px;
+}
+.imag2-2layer{
+     width:215px;
+     height:225px;
+     top: -458px;
+     left: 7px;
+}
+.imag2-3layer{
+     width:215px;
+     height:225px;
+     top: -688px;
+     left: 10px;
+}
+
+/* imag 3 */
+.imagediv3{
+  margin-top: 0px;
+  height: 150px !important;
+  margin-left: 0px;
+}
+
+.img3{
+  width:215px;
+  height:125px;
+  position:relative;
+  top:0px;
+  left:0px;
+  z-index:4;
+}
+.imag3-1layer{
+    width:215px;
+    height:125px;
+    top: -129px;
+    left: 3px;
+}
+.imag3-2layer{
+     width:215px;
+     height:125px;
+     top: -258px;
+    left: 7px;
+}
+.imag3-3layer{
+     width:215px;
+     height:125px;
+     top: -387px;
+    left: 11px;
+}
+
+.morging-top-image{
+  margin-top: -30px !important;
+}
+
+}
+
+
+
+@media screen and (min-width: 480px) and (max-width: 600px) {
+  p{
+    font-size: 18px !important;
+    font-family:GauthierNextFY-Regular-Latin-trinity-college_kandy;
+}
+h1{
+  font-size: 43px;
+}
+.hr-short{
+  height: 6px !important;
+  background-color: #000 !important;
+  border: none !important;
+  width: 270px !important;
+  margin-left: 15%;
+}
+.swiper-button-next{
+  color: #000;
+  top: auto;
+  margin-top: -105px;
+right: 75px;
+}
+
+.swiper-button-prev{
+color: #000;
+top: auto;
+margin-top: -105px;
+left: 75px;
+}
+.nav-normal{
+  display: none;
+}
+
+/* imag 1 */
+.imagediv{
+  margin-top: 10px;
+  height: 355px !important;
+  margin-left: 35px;
+
+}
+.img1{
+  width:250px;
+  height:300px;
+  position:relative;
+  top:0px;
+  left:-69px;
+  z-index:4;
+}
+/* imag 2 */
+.imagediv2{
+  margin-top: 10px;
+  height: 256px !important;
+  margin-left: 35px;
+
+}
+.img2{
+  width:250px;
+  height:225px;
+  position:relative;
+  top:0px;
+  left:-69px;
+  z-index:4;
+}
+/* imag 3 */
+.imagediv3{
+  margin-top: 10px;
+  height: 179px !important;
+  margin-left: 35px;
+
+}
+
+.img3{
+  width:250px;
+  height:125px;
+  position:relative;
+  top:0px;
+  left:-69px;
+  z-index:4;
+}
+.morging-top-image{
+  margin-top: -30px !important;
+}
+
+}
+
+
+@media screen and (min-width: 320px ) and (max-width: 480px)  {
+  p{
+    font-size: 18px !important;
+    font-family:GauthierNextFY-Regular-Latin-trinity-college_kandy;
+}
+h1{
+  font-size: 40px;
+}
+.hr-short{
+  height: 6px !important;
+  background-color: #000 !important;
+  border: none !important;
+  width: 270px !important;
+  margin-left: 15%;
+}
+.swiper-button-next{
+  color: #000;
+  top: auto;
+  margin-top: -105px;
+right: 75px;
+}
+
+.swiper-button-prev{
+color: #000;
+top: auto;
+margin-top: -105px;
+left: 75px;
+}
+.nav-normal{
+  display: none;
+}
+/* imag 1 */
+.imagediv{
+  margin-top: 0px;
+  height: 373px !important;
+  margin-left: 10px;
+
+}
+.img1{
+  width:250px;
+  height:300px;
+  position:relative;
+  top:0px;
+  left:-28px;
+  z-index:4;
+}
+/* imag 2 */
+.imagediv2{
+  margin-top: 0px;
+  height: 256px !important;
+  margin-left: 10px;
+}
+.img2{
+  width:250px;
+  height:225px;
+  position:relative;
+  top:0px;
+  left:-28px;
+  z-index:4;
+}
+/* imag 3 */
+.imagediv3{
+  margin-top: 0px;
+  height: 150px !important;
+  margin-left: 10px;
+}
+
+.img3{
+  width:250px;
+  height:125px;
+  position:relative;
+  top:0px;
+  left:-28px;
+  z-index:4;
+}
+.morging-top-image{
+  margin-top: -30px !important;
+}
+
+}

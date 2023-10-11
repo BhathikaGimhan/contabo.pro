@@ -1,0 +1,28 @@
+.blue-bg {
+    background-color: #b6c7c2;
+}
+
+.cream-bg {
+    background-color: #dac79d;
+}
+
+p, h1, h2 {
+    font-family: GauthierNextFY, serif !important;
+}
+
+.main-header {
+    font-weight: bold;
+    color: #8c7237;
+}
+.main-text {
+    color: #112c3f;
+    font-size: 22px;
+}
+
+.page-title-section {
+    border-bottom: black solid thin;
+}
+
+.text-area p {
+    font-size: 22px;
+}

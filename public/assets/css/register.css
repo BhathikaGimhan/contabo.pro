@@ -1,0 +1,189 @@
+:root {
+    --blue: #112c3f;
+    --cream: #f2ece0;
+}
+
+body {
+    min-height: 100vh;
+}
+
+body > div {
+    height: 100%;
+}
+
+h1.college-name {
+    font-size: 60px !important;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.register {
+    padding-left: 0px !important;
+}
+
+.form-check-input {
+    width: 50px !important;
+}
+
+.form-check-label {
+    margin-top: 20px !important;
+    padding-left: 15px !important;
+    font-size: 25px !important;
+}
+
+.create-account {
+    width: 350px !important;
+}
+
+.bg-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.title-box img {
+    width: 35px;
+    object-fit: contain;
+}
+
+.title-box {
+    padding: 2em 1em;
+}
+
+.title-box h1 {
+    font-size: 5em;
+    font-weight: bold;
+    padding-left: 25px;
+    color: var(--blue);
+    cursor: default;
+}
+
+.cream-bg {
+    background-color: var(--cream);
+    min-height: 100vh;
+}
+
+.login-text {
+    padding-top: 2em;
+}
+
+.login-text h2 {
+    font-weight: bold;
+    font-size: 2.3em;
+}
+
+.login-text p {
+    font-size: 1.2em;
+}
+
+button.google-btn {
+    width: 230px;
+    min-height: 43px;
+    border: none;
+    background-color: white;
+    padding: 0 1em;
+    border-radius: 5px;
+    color: #7b7b7b;
+    border: #a3a3a3 solid thin !important;
+    margin-inline: 10px;
+}
+
+
+.small-logo img {
+    width: 24px;
+    height: 24px;
+}
+
+.small-text {
+    font-size: 14px !important;
+}
+
+.info-text p {
+    width: 80%;
+    font-size: 1.2em;
+    padding-top: 1em;
+    margin: 0;
+}
+.separator {
+    margin-top: 2em;
+}
+
+.separator h3 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+.separator span {
+    background: var(--cream);
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+img.google-icon {
+    width: 30px;
+    height: 30px;
+    align-self: center;
+}
+
+.login-area h2 {
+    padding-top: 0.6em;
+    font-weight: bold;
+    font-size: 1.5em !important;
+}
+
+.info-text span {
+    text-decoration: underline;
+}
+.input-section {
+    padding: 1em 7em;
+}
+
+.auth-input-group span {
+    font-size: 1em;
+}
+
+.auth-input-group input {
+    width: 100%;
+    height: 35px;
+    font-size: 1em;
+    border: none;
+    padding-left: 10px;
+    color: var(--blue);
+}
+
+.password {
+    padding-top: 0px !important;
+}
+
+.btn-area button {
+    width: 160px;
+    height: 40px;
+    border: none;
+    border-radius: 0;
+    background-color: var(--blue);
+    font-size: 1.2em;
+    color: #ffe6b0;
+    margin-bottom: 20px
+}
+
+.btn-area button:hover {
+    background-color: #782c2c;
+    color: #ffe6b0;
+}
+
+body {
+    font-family: GauthierNextFY, serif !important;
+    color: var(--blue);
+}
+
+
+@media (max-width: 768px) {
+    .input-section {
+        padding-inline: 40px !important;
+    }
+}

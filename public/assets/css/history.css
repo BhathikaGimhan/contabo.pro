@@ -1,0 +1,29 @@
+.font-bold{
+    font-family:GauthierNextFY-Bold-Latin-trinity-college_kandy;
+    font-weight: 600;
+}
+.hr-bold{
+    height: 6px !important;
+    background-color: #000;
+    border: none;
+}
+hr{
+    height: 4px !important;
+    background-color: #000 !important;
+}
+p{
+    font-size: 27px !important;
+    font-family:GauthierNextFY-Regular-Latin-trinity-college_kandy;
+}
+.bgcolor-text-blocks{
+    background-color: rgb(199, 183, 111);
+}
+.a-link{
+    text-decoration: none !important;
+}
+h1{
+    font-size: 45px;
+}
+.mouse-over-the-box{
+    height: 300px;
+}

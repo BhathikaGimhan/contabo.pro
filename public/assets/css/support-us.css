@@ -1,0 +1,292 @@
+@font-face {
+    font-family: GauthierNextFY-bold;
+    src: url(../font/GauthierNextFY-Bold-Latin-trinity-college_kandy.ttf);
+}
+
+@font-face {
+    font-family: GauthierNextFY-regular;
+    src: url(../font/TRY_GauthierNextFY-Regular.ttf);
+}
+
+.back-1 {
+    background: url("../images/homepage-sections/background/Section_Background\ 01-min.png");
+}
+
+.back-2 {
+    background: url("../images/homepage-sections/background/Section_Background\ 02-min.png");
+}
+
+h1 {
+    font-family: GauthierNextFY-bold;
+    font-size: 57px;
+}
+
+h3 {
+    font-family: GauthierNextFY-bold;
+    font-size: 26px;
+}
+
+.justify-text {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* section 1 */
+.sec-1 {
+    background-color: #782c2c;
+    height: 511px;
+}
+
+.overlay {
+    background: url("../images/support-us.png");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.sec-1 h1 {
+    color: #ffe6b0;
+    padding-bottom: 20px;
+}
+
+.sec-1 h3 {
+    color: #ffe6b0;
+    line-height: 42px;
+}
+
+/* section 2  */
+.sec-2-content {
+    padding: 50px 0;
+}
+
+.sec-2 h1 {
+    color: #112c3f;
+    padding-bottom: 20px;
+}
+
+.sec-2 p {
+    font-family: GauthierNextFY-bold;
+    font-size: 20px;
+    color: #112c3f;
+    padding-bottom: 20px;
+}
+
+.sec-2-content .col-7 {
+    padding-inline: 70px;
+}
+
+.image-container {
+    background-color: #000;
+    box-shadow: 10px 10px #908d88;
+    width: 360px;
+    height: 480px;
+}
+
+.inside-container {
+    color: #f2ece0;
+    font-size: 20px;
+}
+
+.buy-book-btn {
+    border-radius: 0 !important;
+    background-color: #112c3f;
+    color: #ffe6b0;
+    font-family: GauthierNextFY-bold;
+    font-size: 22px;
+}
+
+.buy-book-btn:hover {
+    background-color: #772b2b;
+    color: #ffe6b0;
+}
+
+/* section 3 */
+.sec-3-content {
+    padding: 60px 0;
+}
+
+.sec-3-content h1 {
+    color: #102c3f;
+    padding-bottom: 18px;
+}
+
+.sec-3-content .col {
+    padding-inline: 70px;
+}
+
+.border-right {
+    border-right: solid 2px #445867;
+}
+
+.currency-radio {
+    padding: 0;
+}
+
+.currency-radio input {
+    display: none;
+}
+
+.amount-radio .form-check-input[type=radio], .form-check-input[type=checkbox] {
+    border-radius: 0;
+    height: 17px;
+    width: 17px;
+    background-color: #dac79d;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.amount-radio {
+    margin-bottom: 0;
+}
+
+.amount-radio label {
+    cursor: pointer;
+}
+
+.sec-3 .row .col .amount-radio label {
+    font-family: GauthierNextFY-regular;
+    font-size: 20px;
+}
+
+.amount-radio .form-check-input[type=radio]:checked, .form-check-input[type=checkbox]:checked {
+    background-color: #782c2c;
+    background-image: none;
+}
+
+
+.currency-radio label {
+    margin-right: 15px;
+}
+
+.currency-radio label {
+    display: inline-block;
+    width: 90px;
+    height: 37px;
+    text-align: center;
+    line-height: 37px;
+    cursor: pointer;
+    background-color: #dac79d;
+    color: #102c3f;
+    font-size: 20px;
+}
+
+#lkr:checked ~ label[for="lkr"],
+#eur:checked ~ label[for="eur"],
+#gbp:checked ~ label[for="gbp"],
+#usd:checked ~ label[for="usd"] {
+    background: #782c2c;
+    color: #edcd9e;
+    background-image: none;
+}
+
+
+.sec-3 .row .col label {
+    font-family: GauthierNextFY-bold;
+    font-size: 25px;
+    color: #102c3f;
+}
+
+.sec-3 input[type="email"], .sec-3 input[type="text"] {
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    color: #782c2c;
+    padding-inline: 10px;
+    height: 38px;
+}
+
+.sec-3 .input-item {
+    padding-bottom: 28px;
+}
+
+.sec-3 .item-text a {
+    text-decoration: none;
+    color: #8c7237;
+    border-bottom: solid #8c7237
+}
+
+.input-item h5 {
+    font-family: GauthierNextFY-bold;
+    font-size: 21px;
+    color: #102c3f;
+}
+
+
+.input-item p.disclaim {
+    font-family: GauthierNextFY-regular;
+    font-size: 18px;
+    color: #102c3f;
+}
+
+.anonymouse {
+    margin-top: 10px;
+}
+
+.sec-3 .buy-book-btn {
+    padding-inline: 30px;
+}
+
+.benefactor p {
+    font-family: GauthierNextFY-bold;
+    font-size: 18px;
+    color: #102c3f;
+}
+
+
+/* section 4 */
+.sec-4 h1 {
+    color: #102c3f;
+}
+
+.sec-4 .bold-text {
+    font-family: GauthierNextFY-bold;
+    font-size: 18px;
+    color: #102c3f;
+}
+
+.sec-4 .simple-text {
+    font-family: GauthierNextFY-regular;
+    font-size: 16px;
+    color: #102c3f;
+}
+
+.header-padding {
+    padding-left: 55px;
+}
+
+.slide-container {
+    position: relative;
+    margin-top: 25px;
+}
+
+.button-next {
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+}
+
+.button-prev {
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+}
+
+.slide-btn {
+    position: absolute;
+    color: #8c7237;
+    transition: color 0.3s ease;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.slide-btn:hover {
+    color: #772b2b;
+}
+
+.swiper-slide {
+    padding-inline: 80px;
+}
+
+.sec-4-content {
+    padding: 60px 0;
+}

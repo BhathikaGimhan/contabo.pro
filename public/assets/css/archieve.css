@@ -1,0 +1,70 @@
+@font-face {
+    font-family: GauthierNextFY-bold;
+    src: url(../font/GauthierNextFY-Bold-Latin-trinity-college_kandy.ttf);
+}
+
+@font-face {
+    font-family: GauthierNextFY-regular;
+    src: url(../font/TRY_GauthierNextFY-Regular.ttf);
+}
+
+.bg-color {
+    background-color: #f3ede1;
+    color: #112c3f;
+    padding: 0 0 20px 0;
+}
+
+h1.header {
+    font-family: GauthierNextFY-bold;
+    font-size: 45px;
+}
+.border-top-row {
+    height: 2px;
+    background-color: #112c3f;
+    margin-bottom: 20px;
+}
+
+.justify-text {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+p {
+    font-size: 25px;
+    font-family: GauthierNextFY-regular;
+}
+
+.container-color {
+    background-color: #d9c69e;
+    color: #112c3f;
+}
+
+.a-link {
+    text-decoration: none;
+}
+
+.btn {
+    box-shadow: none;
+    background-color: #112c3f;
+    font-size: 25px;
+    font-family: GauthierNextFY-bold;
+}
+
+.btn:hover {
+    background-color: #782c2c;
+}
+
+.h2-digi {
+    font-size: 60px;
+    font-family: GauthierNextFY-bold;
+    color: #112c3f !important;
+    font-weight: bold;
+}
+
+h5 {
+    font-family: GauthierNextFY-bold;
+    color: #112c3f;
+}
+.image1 {
+    width: 230px;
+}

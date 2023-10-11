@@ -1,0 +1,120 @@
+
+
+@font-face {
+    font-family: GauthierNextFY-bold;
+    src: url(../font/GauthierNextFY-Bold-Latin-trinity-college_kandy.ttf);
+}
+
+@font-face {
+    font-family: GauthierNextFY-regular;
+    src: url(../font/TRY_GauthierNextFY-Regular.ttf);
+}
+
+.back {
+    background: url("../images/homepage-sections/background/Section_Background\ 02-min.png");
+}
+
+
+.for-mil-bg {
+	background-color: #AFAFAF;
+	height: 600px;
+}
+
+.line-1 {
+    height: 4px;
+    background-color: #112c3f;
+    margin-bottom: 5px;
+}
+
+.line-2 {
+    height: 2px;
+    background-color: #112c3f;
+}
+
+.justify-text {
+    text-align: justify;
+    text-justify: inter-word;
+    text-align-last: center;
+}
+
+
+/* header  */
+.sec-content {
+    padding: 20px 0;
+    padding-bottom: 95px;
+}
+
+.sec-header {
+    padding-top: 65px;
+    padding-bottom: 75px;
+}
+
+.sec-header h1 {
+    font-family: GauthierNextFY-bold;
+    font-size: 65px;
+    color: #8c7237;
+    padding-top: 35px;
+    margin: 0;
+}
+
+.sec-header h2 {
+    font-family: GauthierNextFY-regular;
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+    margin: 0;
+}
+
+.sec-header p {
+    font-family: GauthierNextFY-regular;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    line-height: 31px;
+    padding-top: 20px;
+    padding-bottom: 26px;
+}
+
+
+
+
+
+
+/* image showing  */
+
+.under-date-img {
+	width: 100%;
+    padding-inline: 10px;
+}
+
+.under-date-img img {
+	width: 100%;
+	object-fit: contain;
+	height: 150px;
+}
+
+.top-bar-date h6 {
+	font-size: 20px;
+	font-weight: 600;
+	text-align: center;
+    font-family: 'CaslonBoldBT';
+    padding: 7px 0;
+}
+
+.under-img-des p {
+	text-align: left;
+}
+
+.overlay {
+    position: relative;
+}
+
+.loading {
+    height: 100vh;
+    width: 100vw;
+    background-color: #ffffff5d;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5000;
+    display: none;
+}

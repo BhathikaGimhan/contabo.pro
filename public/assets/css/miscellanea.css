@@ -1,0 +1,342 @@
+.header-2nd-nav {
+    padding: 0;
+}
+
+input.mis-search-input {
+    width: 100%;
+    background-color: #dac79d;
+    border: none;
+    font-family: GauthierNextFY-Regular-Latin-trinity-college_kandy;
+    padding: 0.3em 1em;
+}
+
+.mis-sub-nav a, .post-nav a {
+    font-family: GauthierNextFY-Regular-Latin-trinity-college_kandy;
+    font-size: 28px;
+    color: #dac79d;
+    padding: 0.5em 0.5em;
+}
+
+/*.mis-sub-nav a:hover {*/
+/*    background-color: #ffe6b0;*/
+/*    color: #112c3f;*/
+/*    transition: 0.3s;*/
+/*}*/
+
+.active-sub-menu {
+    background-color: #ffe6b0;
+    color: #112c3f !important;
+}
+
+.sub-nav-area {
+}
+
+.input-area {
+    padding-bottom: 0.5em;
+    padding-top: 1.2em;
+}
+
+.bg-cream {
+    background-color: #ffe6b0;
+}
+
+.header h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: GauthierNextFY-Regular-Latin-trinity-college_kandy;
+
+}
+
+.header p {
+    font-size: 16pt;
+}
+
+.hr-bold {
+    border-top: black solid thick;
+}
+
+.blog-img {
+    height: 250px;
+    min-height: 250px;
+    max-width: 330px;
+    object-fit: cover;
+}
+
+.featured-image {
+    padding: 10px 10px 10px 0px;
+
+}
+
+.right-margin {
+    padding-right: 3em;
+}
+
+.blog-data {
+    min-height: 270px;
+}
+
+.read-more {
+    font-size: 24px !important;
+}
+
+.read-more:hover {
+    color: #d72729;
+    transition: 0.3s;
+}
+
+.post {
+    padding: 3em 0;
+    border-bottom: black solid thin;
+}
+
+.blog-data h1 {
+    font-weight: bold;
+    font-family: GauthierNextFY-Regular-Latin-trinity-college_kandy;
+    margin-bottom: 0;
+    color: black;
+    font-style: normal;
+}
+
+.blog-data h1:hover {
+    color: #d72729;
+    transition: 0.3s;
+}
+
+p.meta, .meta a {
+    color: #d72729;
+    font-family: GauthierNextFY-Regular-Latin-trinity-college_kandy;
+    font-size: 18px;
+}
+
+.read-more {
+
+}
+
+.blog-body {
+    font-family: GauthierNextFY-Regular-Latin-trinity-college_kandy !important;
+    font-size: 18px !important;
+}
+
+.blog-body p {
+    font-family: GauthierNextFY-Regular-Latin-trinity-college_kandy !important;
+    font-size: 18px !important;
+}
+
+.blog-body h1 {
+    font-family: GauthierNextFY-Regular-Latin-trinity-college_kandy !important;
+    font-size: 18px !important;
+}
+
+.blog-body h2 {
+    font-family: GauthierNextFY-Regular-Latin-trinity-college_kandy !important;
+    font-size: 18px !important;
+}
+
+.blog-body h3 {
+    font-family: GauthierNextFY-Regular-Latin-trinity-college_kandy !important;
+    font-size: 18px !important;
+}
+
+.blog-body h4 {
+    font-family: GauthierNextFY-Regular-Latin-trinity-college_kandy !important;
+    font-size: 18px !important;
+}
+
+.blog-body h5 {
+    font-family: GauthierNextFY-Regular-Latin-trinity-college_kandy !important;
+    font-size: 18px !important;
+}
+
+.blog-body h6 {
+    font-family: GauthierNextFY-Regular-Latin-trinity-college_kandy !important;
+    font-size: 18px !important;
+}
+
+.blog-body span {
+    font-family: GauthierNextFY-Regular-Latin-trinity-college_kandy !important;
+    font-size: 18px !important;
+}
+
+.blog-body a {
+    font-family: GauthierNextFY-Regular-Latin-trinity-college_kandy !important;
+    font-size: 18px !important;
+}
+
+.blog-body div, .blog-body i {
+    font-family: GauthierNextFY-Regular-Latin-trinity-college_kandy !important;
+    font-size: 18px !important;
+}
+
+.read-more {
+    color: #112c3f;
+    font-size: 42px;
+}
+
+/*related for posts*/
+
+.post-nav {
+    height: 59px;
+}
+
+.bg-blue {
+    background-color: #b6c7c2;
+}
+
+.bg-white {
+    background-color: #f2ece0;
+}
+
+img.featured-image-post {
+    width: 840px;
+    height: 490px;
+    object-fit: cover;
+}
+
+.post-view-area {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding: 15px;
+}
+
+.side-bar {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    /*margin-left: 1em;*/
+    padding: 15px;
+}
+
+.post-view-area h1 {
+    font-weight: bold;
+    font-family: GauthierNextFY-Regular-Latin-trinity-college_kandy;
+}
+
+.pl-5 {
+    padding-left: 2em;
+}
+
+.meta-area p, .meta-area a {
+    font-family: GauthierNextFY-Regular-Latin-trinity-college_kandy;
+    color: #8c7237;
+    font-size: 18px;
+}
+
+.post-page-body p {
+    font-family: GauthierNextFY-Regular-Latin-trinity-college_kandy;
+    font-size: 18px;
+}
+
+.post-page-body img {
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+.post-page-footer p {
+    font-family: GauthierNextFY-Regular-Latin-trinity-college_kandy;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bg-baige {
+    background-color: #dac79d;
+}
+
+.side-bar h1 {
+    font-weight: bold;
+    font-family: GauthierNextFY-Regular-Latin-trinity-college_kandy;
+    color: #112c3f;
+    font-size: 55px;
+    line-height: 1;
+}
+
+.side-bar-post h1 {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: GauthierNextFY-Regular-Latin-trinity-college_kandy;
+    color: black;
+    margin-top: 0.4em;
+    cursor: pointer;
+}
+
+
+.side-bar-post a {
+    color: #112c3f;
+    font-family: GauthierNextFY-Regular-Latin-trinity-college_kandy;
+    font-weight: bold;
+}
+
+.side-bar-post {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-bottom: black solid thin;
+}
+
+.side-bar-post h1:hover {
+    color: #d72729;
+    transition: 0.3s;
+}
+
+.side-bar-post a:hover {
+    color: #d72729;
+    transition: 0.3s;
+}
+
+.bg-red {
+    background-color: #a12829;
+}
+
+.blog-footer h1 {
+    font-family: GauthierNextFY-Regular-Latin-trinity-college_kandy;
+    font-weight: bold;
+    color: #f2ece0;
+    font-size: 3em;
+    width: 40%;
+}
+
+a.more-link {
+    font-family: GauthierNextFY-Regular-Latin-trinity-college_kandy;
+    font-size: 30px;
+    font-weight: bold;
+    color: #dac79d;
+    line-height: 1;
+}
+
+a.more-link:hover {
+    color: #f2ece0;
+    transition: 0.3s;
+}
+
+.post-nav a:hover {
+    text-decoration: underline !important;
+}
+
+@media (max-width: 992px) {
+
+    .sub-nav-area {
+        justify-content: center !important;
+    }
+
+    .blog-data {
+        padding: 0 !important;
+    }
+
+    .blog-img.right-margin {
+        padding: 0 !important;
+    }
+
+    .featured-image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .post {
+        padding-inline: 20px !important;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .sub-nav-area a {
+        font-size: 16px !important;
+    }
+}

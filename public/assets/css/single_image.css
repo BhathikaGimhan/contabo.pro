@@ -1,0 +1,19 @@
+.background {
+    background-color: #050527;
+}
+
+.background .go-back {
+    color: white;
+}
+
+.background .fullscreen {
+    color: white;
+}
+
+.background .go-back:hover {
+    text-decoration: underline !important;
+}
+
+.background .single-image {
+    width: 100% !important;
+}

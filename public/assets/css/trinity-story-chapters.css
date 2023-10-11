@@ -1,0 +1,8 @@
+@font-face {font-family: "Gauthier Next FY"; src: url("//db.onlinewebfonts.com/t/7da0db9483744ded8d3a0d5f4aea5c33.eot"); src: url("//db.onlinewebfonts.com/t/7da0db9483744ded8d3a0d5f4aea5c33.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/7da0db9483744ded8d3a0d5f4aea5c33.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/7da0db9483744ded8d3a0d5f4aea5c33.woff") format("woff"), url("//db.onlinewebfonts.com/t/7da0db9483744ded8d3a0d5f4aea5c33.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/7da0db9483744ded8d3a0d5f4aea5c33.svg#Gauthier Next FY") format("svg"); } 
+* {
+	list-style: none !important;
+	text-decoration: none !important;
+	box-sizing: border-box !important;
+	font-family: "Gauthier Next FY", serif !important;
+	font-size: 28px;
+  }

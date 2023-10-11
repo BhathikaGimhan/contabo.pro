@@ -1,0 +1,171 @@
+.header-section {
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 1080px;
+    margin-top: -50px;
+}
+
+.header-section h1 {
+    font-family: 'CaslonBoldBT';
+    font-size: 6em;
+    font-weight: 600;
+    color: #112c3f;
+    letter-spacing: 5px;
+    width: 80%;
+}
+
+.header-texts {
+    padding-top: 5em;
+}
+
+.header-section p {
+    font-size: 33px;
+    font-family: GauthierNextFY, serif !important;
+
+}
+
+.tour-container .nav-link {
+    font-size: 36px;
+    padding: 0.3em 0.9em;
+    color: #112c3f;
+    font-family: GauthierNextFY, serif !important;
+}
+
+.tour-container .nav-link.active {
+    color: #d72729 !important;
+    background-color: #b6c7c2 !important;
+}
+
+.tab-pane {
+    background-color: #b6c7c2 !important;
+}
+
+.nav-tabs {
+    border-bottom-width: 0px;
+}
+
+.toure-area {
+    padding-left: 3em;
+    padding-bottom: 3em;
+}
+
+.first-item {
+    padding-top: 6em !important;
+}
+
+#archive .toure-area:first-of-type {
+    padding-top: 6em !important;
+}
+
+.toure-area h2 {
+    font-weight: bold;
+    font-size: 5em;
+    color: #112c3f;
+    font-family: GauthierNextFY, serif !important;
+}
+
+.toure-area p {
+    font-size: 2em;
+    color: #112c3f;
+    font-family: GauthierNextFY, serif !important;
+    width: 90%;
+}
+
+
+.toure-area a {
+    font-weight: bold;
+    font-size: 2em;
+    color: #8c7237;
+    font-family: GauthierNextFY, serif !important;
+}
+
+.tour-data {
+    cursor: pointer;
+}
+
+.tour-data:hover .tour-link {
+    color: #d72729;
+    transition: 0.3s;
+}
+
+.tour-data:hover .tour-title {
+    color: #8c7237;
+    transition: 0.3s;
+}
+
+div.hr {
+    border-bottom: #112c3f solid thin;
+    width: 90%;
+    margin: 3em 2em 0;
+}
+
+.item360 {
+    padding: 4em;
+}
+
+.item360 h1 {
+    font-weight: bold;
+    font-size: 4em;
+    color: #112c3f;
+    font-family: GauthierNextFY, serif !important;
+    width: 80%;
+}
+
+.item360 a {
+    font-weight: bold;
+    font-size: 2em;
+    color: #8c7237;
+    font-family: GauthierNextFY, serif !important;
+}
+
+.has-border-360 {
+    border-right: black solid thin;
+    border-bottom: black solid thin;
+}
+
+.has-border-360-bottom {
+    border-bottom: black solid thin;
+}
+.has-border-360-no-bottom {
+    border-right: black solid thin;
+}
+
+.tour-above {
+    padding: 4em;
+}
+
+.centered {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered h1 {
+    font-weight: bold;
+    font-size: 3em;
+    color: #f2ece0;
+    font-family: GauthierNextFY, serif !important;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.mi-btn {
+    margin-top: 10px !important;
+    padding: 8px 16px !important;
+    background-color: #112c3f;
+    color: #dac79d;
+    font-size: 25px;
+}
+
+.read-more-hover:hover {
+    background-color: #d72729;
+    color: #dac79d;
+    transition: 0.3s;
+}

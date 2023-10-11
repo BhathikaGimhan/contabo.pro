@@ -1,0 +1,53 @@
+@font-face {
+    font-family: GauthierNextFY-bold;
+    src: url(../font/GauthierNextFY-Bold-Latin-trinity-college_kandy.ttf);
+}
+
+@font-face {
+    font-family: GauthierNextFY-regular;
+    src: url(../font/TRY_GauthierNextFY-Regular.ttf);
+}
+
+#collectionModal .modal-content {
+    border-radius: 0;
+    background-color: #f4f2e3;
+}
+
+#collectionModal h6 {
+    font-family: GauthierNextFY-bold;
+    color: black;
+}
+
+#collectionModal h3 {
+    font-family: GauthierNextFY-bold;
+    color: #112c3f;
+}
+
+#collectionModal .underline-text h6 {
+    border-bottom: solid black;
+    width: fit-content;
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    transition: all 0.5s ease-in-out;
+}
+
+.close .fa-circle {
+    font-size: 22px;
+}
+
+.close .fa-close {
+    font-size: 16px;
+}
+
+.close .fa-stack:hover,
+.close .fa-stack:focus {
+    color: #d72729;
+    text-decoration: none;
+    cursor: pointer;
+}
+
