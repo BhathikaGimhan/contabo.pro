@@ -33,8 +33,8 @@
                     <i class="fa fa-times" aria-hidden="true"></i>
                 </div>
                 <div class="text-center">
-                    <h6 class="pb-1">THE PRINCIPAL</h6>
-                    <h3 class="main-title text-center">Rev. Ireland Jones</h3>
+                    <h6 class="pb-1">THE STAFF MEMBER</h6>
+                    <h3 class="main-title text-center">Mr. L. S. Danthanarayana</h3>
                     <h6 class="pb-3 pt-1">WAS ADDED TO YOUR COLLECTIONS</h6>
                     <a href="#" style="color: black" class="underline-text d-flex pb-3 justify-content-center">
                         <button>VIEW MY COLLECTIONS</button>

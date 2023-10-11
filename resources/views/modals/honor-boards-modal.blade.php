@@ -1,5 +1,6 @@
+
 <div class="board-item-model">
-    <img class="empty-board" src="{{ asset('assets/backgrounds/empty-board-long.jpg') }}"
+    <img class="empty-board" width="370" style="max-height: 620px" src="{{ asset('assets/backgrounds/empty-board-long.jpg') }}"
          alt="">
     <div class="centered-model text-center">
         <h3>

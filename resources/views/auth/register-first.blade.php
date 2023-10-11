@@ -72,12 +72,12 @@ h2.afterbtn-h3 {
     text-align: left;
     /* Add placeholder styles */
     ::placeholder {
-        font-family: "Gauthier Next FY", sans-serif;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 17px;
-        letter-spacing: 0;
-        text-align: left;
+        color: #103355;
+font-family: Gauthier Next FY;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
     }
 }
 .login-text{
@@ -97,6 +97,42 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 } 
+.auth-input-group input {
+    font-family: "Gauthier Next FY", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0;
+    text-align: left;
+    /* Add placeholder styles */
+    ::placeholder {
+        color: #103355;
+font-family: Gauthier Next FY;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    }
+}
+/* Style the placeholders for email and password fields */
+.input-section .auth-input-group input::placeholder {
+    color: #103355;
+font-family: Gauthier Next FY;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+/* Style the placeholders for small-text elements (if needed) */
+.small-text::placeholder {
+    color: #103355;
+font-family: Gauthier Next FY;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
 
 </style>
 <body>
@@ -145,6 +181,8 @@ line-height: normal;
                             font-family: Gauthier Next FY;
                             font-size: 20px;
                             font-style: normal;
+                            position:relative;
+                            left:-8px;
                             font-weight: 900;
                             line-height: normal;">CREATE AN ACCOUNT WITH EMAIL</h2>
                             <div class="inputs">

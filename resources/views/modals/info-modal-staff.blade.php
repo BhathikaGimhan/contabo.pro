@@ -49,7 +49,7 @@
                 <div class="row text-right d-block" data-bs-dismiss="modal">
                     <i class="fa fa-times" aria-hidden="true"></i>
                 </div>
-                <h5 class="text-center main-txt mt-2">I HAVE MORE INFORMATION<br> RELATED TO THIS PRINCIPAL</h5>
+                <h5 class="text-center main-txt mt-2">I HAVE MORE INFORMATION<br> RELATED TO THIS STAFF MEMBER</h5>
                 <div class="p-4">
                     <div class="row">
                         <div class="col-md-4">

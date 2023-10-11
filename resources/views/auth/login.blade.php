@@ -70,34 +70,32 @@ h2.afterbtn-h3 {
     text-align: left;
     /* Add placeholder styles */
     ::placeholder {
-        font-family: "Gauthier Next FY", sans-serif;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 17px;
-        letter-spacing: 0;
-        text-align: left;
+        color: #103355;
+font-family: Gauthier Next FY;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
     }
 }
 /* Style the placeholders for email and password fields */
 .input-section .auth-input-group input::placeholder {
-    font-family: "Gauthier Next FY", sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 17px;
-    letter-spacing: 0;
-    text-align: left;
-    color: #999; /* Placeholder text color (you can adjust this color) */
+    color: #103355;
+font-family: Gauthier Next FY;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 
 /* Style the placeholders for small-text elements (if needed) */
 .small-text::placeholder {
-    font-family: "Gauthier Next FY", sans-serif;
-    font-size: 10px;
-    font-weight: 400;
-    line-height: 12px;
-    letter-spacing: 0;
-    text-align: center;
-    color: #999; /* Placeholder text color (you can adjust this color) */
+    color: #103355;
+font-family: Gauthier Next FY;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 .info-text p{
    

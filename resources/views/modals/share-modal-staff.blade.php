@@ -43,8 +43,8 @@
                 <!--div class="close" data-bs-dismiss="modal">
                     <i class="fa fa-close fa-stack-1x" id="icon-close"></i>
                 </div-->
-                <div class="row text-right d-block" data-bs-dismiss="modal">
-                    <i class="fa fa-times" aria-hidden="true"></i>
+                <div class="row text-right d-block" >
+                    <i class="fa fa-times" data-bs-dismiss="modal" aria-hidden="true"></i>
                 </div>
                 <div class="text-center mt-4">
                     <h5>SHARE THIS ITEM</h5>

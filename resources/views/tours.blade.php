@@ -1,28 +1,128 @@
 @section('assets-css')
     <link rel="stylesheet" href="{{ asset('assets/css/archive_tour.css') }}">
+    <style>
+        #myTab{
+            width: 100%;
+            justify-content: center; /* Step 2: Center items along the main axis */
+          align-items: center;
+          color:#103355;
+        }
+        .nav-tabs .nav-link{
+            color:#103355;
+        }
+        #myTab .active:focus {
+    background-color: #103355;
+    color:#F2ECE0D6;
+  }
+  .nav-tabs .nav-link.active {
+    background-color: #103355;
+    color:#F2ECE0D6;
+  }
+  
+  #tour-3d h2{
+      color: #103355;
+    text-align: center;
+    font-family: Gauthier Next FY;
+    font-size: 53.655px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 94.5%; /* 50.704px */
+  }
+  #tour-3d a{
+      color: #8D7237;
+text-align: center;
+font-family: Gauthier Next FY;
+font-size: 33.018px;
+font-style: normal;
+font-weight: 700;
+line-height: 94.5%; /* 31.202px */
+text-transform: uppercase;
+  }
+  #tour-3d img{
+      width: 350.821px;
+height: 234.079px;
+flex-shrink: 0;
+  }
+  #tour-3d{
+      width:150vh;
+      /*display: flex;*/
+  justify-content: center; /* Step 2: Center items along the main axis */
+  align-items: center;
+  margin:auto;
+  }
+  .torbody{
+      position:fixed;
+      height:100vh;
+      z-index:-999999;
+      top:-10px;
+      width:100%;
+      background-image: url('{{ asset('assets/images/homepage-sections/background/Section_Background 01-min.png') }}');
+  }
+  #tour-360{
+      position:relative;
+      margin-top:-2000px;
+      width:100%;
+  }
+  #tour-360 h1{
+      color: #103355;
+    text-align: center;
+    font-family: Gauthier Next FY;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 94.5%; /* 61.425px */
+  }
+  #tour-360 a{
+      color: #8D7237;
+text-align: center;
+font-family: Gauthier Next FY;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 94.5%; /* 37.8px */
+text-transform: uppercase;
+  }
+    </style>
 
 @endsection
 @extends('layouts/master')
 @section('title', 'Virtual Tours')
 @section('content')
-    <div class="container-fluid header-section"
-         style="background-image: url({{ asset('assets/images/tours/header-01.png') }})">
+<div class="torbody"></div>
+    <div class="container-fluid" style="width:50%; height:50vh; display: flex;
+  justify-content: center; /* Step 2: Center items along the main axis */
+  align-items: center;"
         <div class="container">
-            <div class="row header-texts">
-                <div class="col-md-5">
-                    <h1>VIRTUAL TRINITY</h1>
-                </div>
-                <div class="col-md-6">
-                    <p class="yellow-text pt-1">Embrace the hallways, landscapes, buildings of Trinity now on your
-                        screen!</p>
-                    <p class="blue-text">In this section, we have displayed
-                        various 3D walkthrough tours of
-                        T</p>
+            <div class="row header-texts justify-item-center">
+                <div class="col text-center">
+                    <h1 class="center" style="color: #103355;
+                    text-align: center;
+                    font-family: Gauthier Next FY;
+                    font-size: 60px;
+                    width: 100%;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 94.5%; /* 56.7px */">
+                        VIRTUAL TRINITY</h1>
+                    <p class="blue-text" style="color: #103355;
+                    text-align: center;
+                    font-family: Gauthier Next FY;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 136%; /* 27.2px */">
+                        Welcome to our Virtual Trinity page, where you can now immerse yourself in the captivating world of Trinity College Kandy. Embark on a virtual exploration as we proudly present a collection of mesmerizing 3D walkthrough tours showcasing the magnificent hallways, picturesque landscapes, and iconic buildings of Trinity.</p>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container tour-container">
+    <div style="color: rgba(242, 236, 224, 0.84);
+    text-align: center;
+    font-family: Gauthier Next FY;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 94.5%; /* 28.35px */
+    text-transform: uppercase;">
         <div class="row pt-5 pb-5">
             <div class="col-md-12">
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -49,7 +149,7 @@
                     </li>
                 </ul>
                 <div class="tab-content" id="myTabContent">
-                    <div class="tab-pane fade show active" id="tour-3d" role="tabpanel" aria-labelledby="home-tab">
+                    <div class=" fade show active" id="tour-3d" role="tabpanel" aria-labelledby="home-tab">
                         <div class="row pt-5 toure-area first-item">
                             <div class="col-md-5">
                                 <img src="{{ asset('assets/images/tours/Chapel-min.png') }}" alt="" class="img-fluid">
@@ -120,7 +220,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="tour-360" role="tabpanel" aria-labelledby="profile-tab">
+                    <div class="tab-pane fade" id="tour-360" style="background: rgba(17, 44, 63, 0.89);" role="tabpanel" aria-labelledby="profile-tab">
                         <div class="row">
                             <div class="col-md-6 item360 tour-data has-border-360">
                                 <img src="{{ asset('assets/images/tours/Old-Pavillion-min.jpg') }}" alt="" class="img-fluid">

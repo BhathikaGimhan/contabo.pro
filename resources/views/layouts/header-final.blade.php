@@ -1,3 +1,36 @@
+<style>
+    #search-input{
+        height : 24px;
+        padding-left : 10px;
+        background: #D9D9D9;
+        width: 254px;
+        outline : none;
+        font-size: 13px;
+        color : rgba(0, 0, 0, 0.43);
+        letter-spacing : 0.3px;
+    }
+    #search-input::placeholder{
+        text-transform : uppercase;
+    }
+    
+    #icon{
+        font-size : 13px;
+        color : #0D0D0D;
+        position : absolute;
+        top : -1px;
+        left : 225px;
+    }
+    
+    #supportus{
+        color : #103355 !important;
+    }
+    #supportus:hover{
+        color : #fff !important;
+    }
+
+</style>
+
+
 <header class="main__header @if(Route::currentRouteName() != 'home') drop_shadow @endif">
     <div class="container header-top">
         <div class="row pt-1 pb-1 top-border">
@@ -13,8 +46,9 @@
                         TRINITY
                         COLLEGE OFFICIAL
                         WEBSITE</a>
-                    <div class="search-sec">
-                        <input type="search" placeholder="Search" class="search-input" />
+                    <div class="search-sec position-relative">
+                        <input type="text" placeholder="Search..." class="search-input" id="search-input" />
+                        <i class="fa fa-search" id="icon" aria-hidden="true"></i>
                         @guest
                             @if (Route::has('login'))
                                 <a class="thp-link" href="{{ route('login') }}">{{ __('Log In') }}</a>
@@ -34,7 +68,7 @@
                             <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                                 @csrf
                             </form>
-                            <a href="{{ route('profile') }}" class="thp-link profile">{{ __('My Account') }}</a>
+                            <a href="{{ route('profile') }}" class="thp-link profile" style="color : #112C3F;">{{ __('My Account') }}</a>
                         @endauth
                     </div>
                 </div>
@@ -55,8 +89,9 @@
 {{--                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"--}}
 {{--                        aria-labelledby="offcanvasNavbarLabel">--}}
 {{--                        <div class="offcanvas-header">--}}
-{{--                            <div class="search-sec">--}}
-{{--                                <input type="search" placeholder="Search" class="search-input" />--}}
+{{--                            <div class="search-sec position-relative">--}}
+{{--                                <input type="text" placeholder="Search..." class="search-input" id="search-input" />--}}
+{{--                                    <i class="fa fa-search" id="icon" aria-hidden="true"></i> --}}
 {{--                                @guest--}}
 {{--                                    @if (Route::has('login'))--}}
 {{--                                        <a class="thp-link" href="{{ route('login') }}">{{ __('Log In') }}</a>--}}
@@ -162,8 +197,7 @@
 {{--                                        </li>--}}
 {{--                                    </ul>--}}
 {{--                                </li>--}}
-{{--                                <li class="nav-item {{ request()->is('support-us') ? 'active-menu ' : '' }}""><a href="{{ route('support-us') }}" style="color: #8c7237">Support--}}
-{{--                                    Us</a></li>--}}
+{{--                                <li class="nav-item {{ request()->is('support-us') ? 'active-menu ' : '' }}"><a href="{{ route('support-us') }}" id="supportus">Suppor tUs</a></li>--}}
 {{--                            </ul>--}}
 {{--                        </div>--}}
 {{--                    </div>--}}
@@ -239,8 +273,8 @@
                                 </li>
                             </ul>
                         </li>
-                        <li><a href="{{ route('support-us') }}" style="color: #8c7237"
-                                class="main-item {{ request()->is('support-us') ? 'active-menu ' : '' }}">Support
+                        <li><a href="{{ route('support-us') }}" 
+                                class="main-item {{ request()->is('support-us') ? 'active-menu ' : '' }}" id="supportus">Support
                                 Us</a></li>
                     </ul>
 
